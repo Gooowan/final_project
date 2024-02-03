@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entity Detail</title>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px;">
+    <h1 style="color: darkslategray;">{{ entity.name }}</h1>
+    <p style="color: #555; margin-top: 10px;">{{ entity.number_of_songs }}</p>
+    <a href="{% url 'playlists_list' %}" style="display: inline-block; margin-top: 20px; padding: 10px 15px; background-color: lightblue; color: white; text-decoration: none; border-radius: 5px;">Back to Entity List</a>
+</body>
+</html>
